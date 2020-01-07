@@ -7,6 +7,9 @@ The original MNIST dataset has handwritten digits while Fashion-MNIST has differ
 
 Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value (intensity) associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255. The training and test data sets have 785 columns. The first column consists of the class labels, and represents the article of clothing. The rest of the columns contain the pixel-values of the associated image.
 
+### Objective 
+The objective of this project is to create a Machine Learning model to predict which type of clothing from the labels list (see below) the images from the test dataset is associated to. 
+
 ## Labels
 - 0 T-shirt/top
 - 1 Trouser
